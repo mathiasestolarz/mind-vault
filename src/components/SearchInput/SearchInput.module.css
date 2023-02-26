@@ -1,0 +1,55 @@
+.searchInput {
+	max-width: 600px;
+	border: 1px solid transparent;
+	font-weight: 400;
+	color: white;
+	line-height: 28px;
+	height: 64px;
+	width: 100%;
+	border-radius: 8px;
+	outline: none;
+	appearance: none;
+	font-size: 16px;
+	padding: 0;
+	padding-left: 24px;
+}
+
+.search-dropdown {
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	min-height: 64px;
+	max-height: 600px;
+	background-color: white;
+	border: 1px solid transparent;
+	font-weight: 400;
+	color: #0d0c22;
+	line-height: 28px;
+}
+
+.search-dropdown-closed {
+	display: none;
+}
+
+/* Remove x in input element of type search
+
+/* clears the ‘X’ from Internet Explorer */
+.searchInput[type=search]::-ms-clear {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+.searchInput[type=search]::-ms-reveal {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+/* clears the ‘X’ from Chrome */
+.searchInput[type="search"]::-webkit-search-decoration,
+.searchInput[type="search"]::-webkit-search-cancel-button,
+.searchInput[type="search"]::-webkit-search-results-button,
+.searchInput[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}

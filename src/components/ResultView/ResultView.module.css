@@ -1,0 +1,25 @@
+.noteList {
+	list-style-type: none;
+	max-width: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.note {
+	width: 100%;
+	border: 2px solid gray;
+	border-radius: 8px;
+}
+
+.noteTitle {
+	border-bottom: 2px solid gray;
+	padding: 12px;
+	font-size: 1.5rem;
+}
+
+.noteContent {
+	padding: 12px;
+}
