@@ -1,0 +1,11 @@
+.searchInputSection {
+	margin: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+.resultViewSection {
+	margin: 24px;
+	display: flex;
+	justify-content: center;
+}
