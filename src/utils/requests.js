@@ -1,7 +1,7 @@
 'use strict';
 
 const serverConfig = {
-	url: 'http://localhost:5000'
+	url: process.env.NEXT_PUBLIC_API_BASE_URL
 }
 
 async function request(endpoint, data = {}) {
@@ -16,11 +16,11 @@ function getRequest(endpoint) {
 }
 
 function postRequest(endpoint, data) {
-	return request(endpoint, data = {});
+	return request(endpoint, data);
 }
 
 function putRequest(endpoint) {
-	return request(endpoint, data = {});
+	return request(endpoint, data);
 }
 
 function deleteRequest(endpoint) {
